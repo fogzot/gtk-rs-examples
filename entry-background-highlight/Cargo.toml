@@ -1,0 +1,11 @@
+[package]
+name = "entry-background-highlight"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+
+[dependencies.gtk]
+package = "gtk4"
+version = "0.9.6"
+features = ["gnome_46"]
